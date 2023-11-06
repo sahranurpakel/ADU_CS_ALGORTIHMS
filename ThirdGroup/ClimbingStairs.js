@@ -1,4 +1,5 @@
 // ! Bottom Up DP
+//  ! https://leetcode.com/problems/climbing-stairs/
 var climbStairs = function (n) {
   let ways = [1, 1];
   for (let i = 2; i <= n; i++) {
