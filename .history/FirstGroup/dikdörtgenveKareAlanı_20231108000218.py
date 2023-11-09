@@ -1,5 +1,0 @@
-kenar = int(input("Karenin bir kenarını giriniz:"))
-print("karenin alanı: " + kenar * kenar)
-kenarlar = int(input("Dikdörtgenin uzun ve kısa kenarını giriniz:\n"))  
-liste = kenarlar.split(" ")          
-print("Dikdörtgenin alanı: " + liste[0]*liste[1])
