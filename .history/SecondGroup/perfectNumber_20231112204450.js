@@ -1,4 +1,3 @@
-# https://leetcode.com/problems/perfect-number/
 const perfect = (number) => {
   let bolenler = 1;
   for (let i = 2; i < number; i++) {

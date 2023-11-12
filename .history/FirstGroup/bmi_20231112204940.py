@@ -3,17 +3,16 @@ def bmi(kilo,boy):
     bmi = kilo / (boy ** 2)
     return bmi
 
-bmi_sonuc = bmi(55,1.58)
+bmi(kilo,boy)
 # Sonucu ekrana yazdır
-print("Beden Kitle Endeksiniz (BMI):", bmi_sonuc)
+print("Beden Kitle Endeksiniz (BMI):", bmi)
 
 # BMI değerini yorumlayarak sonucu ekrana yazdır
-if bmi_sonuc < 18.5:
+if bmi < 18.5:
     print("Zayıfsınız.")
-elif 18.5 <= bmi_sonuc < 24.9:
+elif 18.5 <= bmi < 24.9:
     print("Normal kilodasınız.")
-elif 25 <= bmi_sonuc < 29.9:
+elif 25 <= bmi < 29.9:
     print("Fazla kilolusunuz.")
 else:
     print("Obezsiniz.")
-

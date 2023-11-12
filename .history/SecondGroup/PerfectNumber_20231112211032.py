@@ -1,4 +1,3 @@
-# https://leetcode.com/problems/perfect-number/
 def perfectNumber(sayı):
     toplam = 0
     for x in range(1,sayı) :

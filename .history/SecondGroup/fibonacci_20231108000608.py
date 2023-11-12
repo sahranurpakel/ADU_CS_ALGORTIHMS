@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/fibonacci-number/
+
 a = 1
 b = 1
 fibonacci = [a,b]
