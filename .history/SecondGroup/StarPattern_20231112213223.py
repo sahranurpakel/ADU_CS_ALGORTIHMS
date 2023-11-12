@@ -11,6 +11,11 @@ def pattern(rows):
     print()
 pattern(5) 
 
+ """    * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * """
 # Pattern2
 for row in range(1, 13):
     for column in range(1, row):
@@ -20,6 +25,22 @@ for row in range(1, 13):
         print("*", end="")
     print()
 print()
+        
+"""          **********
+            * *********
+            ** ********
+            *** *******
+            **** ******
+            ***** *****
+            ****** ****
+            ******* ***
+            ******** **
+            ********* *
+            ********** 
+            ***********    """
+
+
+Process finished with exit code 0
 
 # Pattern3
 for i in range(1, 11):
@@ -32,6 +53,17 @@ for i in range(1, 11):
     print()
 print()   
 
+ """    *
+        **
+        ***
+        ****
+        *****
+        **** *
+        *** ***
+        ** *****
+        * *******
+         *********     """
+# Pattern4
 for i in range(1, 11):
     if i % 2 == 1:
         for j in range(1, 11):
@@ -46,3 +78,14 @@ for i in range(1, 11):
             else:
                 print(" ", end="")
     print()
+    
+ """     * * * * *
+        * * * * * 
+         * * * * *
+        * * * * * 
+         * * * * *
+        * * * * * 
+         * * * * *
+        * * * * * 
+         * * * * *
+        * * * * *     """

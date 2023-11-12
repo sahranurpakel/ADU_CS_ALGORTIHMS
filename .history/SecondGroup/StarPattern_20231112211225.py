@@ -9,8 +9,7 @@ def pattern(rows):
             k += 1
         print()
     print()
-pattern(5) 
-
+pattern(5)    
 # Pattern2
 for row in range(1, 13):
     for column in range(1, row):
@@ -20,7 +19,6 @@ for row in range(1, 13):
         print("*", end="")
     print()
 print()
-
 # Pattern3
 for i in range(1, 11):
     for j in range(1, i + 1):
@@ -31,7 +29,7 @@ for i in range(1, 11):
             print("*", end="")
     print()
 print()   
-
+# Pattern4
 for i in range(1, 11):
     if i % 2 == 1:
         for j in range(1, 11):

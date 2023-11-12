@@ -1,16 +1,14 @@
 # Pattern1
-def pattern(rows):
-    for i in range(1, rows + 1):
-        for space in range(1, rows - i + 1):
-            print("  ", end="")
-        k = 0
-        while k != 2 * i - 1:
-            print("* ", end="")
-            k += 1
-        print()
+rows = int(input("satir sayisi: "))
+for i in range(1, rows + 1):
+    for space in range(1, rows - i + 1):
+        print("  ", end="")
+    k = 0
+    while k != 2 * i - 1:
+        print("* ", end="")
+        k += 1
     print()
-pattern(5) 
-
+print()
 # Pattern2
 for row in range(1, 13):
     for column in range(1, row):
@@ -20,7 +18,6 @@ for row in range(1, 13):
         print("*", end="")
     print()
 print()
-
 # Pattern3
 for i in range(1, 11):
     for j in range(1, i + 1):
@@ -31,7 +28,7 @@ for i in range(1, 11):
             print("*", end="")
     print()
 print()   
-
+# Pattern4
 for i in range(1, 11):
     if i % 2 == 1:
         for j in range(1, 11):
