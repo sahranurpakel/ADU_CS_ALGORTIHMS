@@ -1,22 +1,12 @@
 def asal_mi(sayı):
     if(sayı == 1):
-        return False
+        return print(sayı,"asal sayı değildir.")
     elif(sayı == 2):
-        return True
+        return print(sayı,"asal sayıdır.")
     else:
         for i in range(2,sayı):
             if(sayı % i == 0):
-                return False
-        return True
+                return print(sayı,"asal sayı değildir.")
+        return print(sayı,"asal sayıdır.")
 
-while True:
-    sayı = input("Sayı:")
-    if(sayı == "q"):
-        break
-    else:
-        sayı = int(sayı)
-
-        if(asal_mi(sayı)):
-            print(sayı,"asal sayıdır.")
-        else:
-            print(sayı,"asal sayı değildir.")
+asal_mi(13)
